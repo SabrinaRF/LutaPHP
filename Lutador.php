@@ -77,7 +77,7 @@ class Lutador {
     public function apresentar() {
         echo "<br>--------------------------------";
         echo "<br>Lutador: ".$this->getNome();
-        echo "<br>Origem: ".$this->getNacionalidade();
+        echo "<br>Origem: ".$this->getNacionalidade()."<br>";
         echo $this->getIdade()." idade <br>";
         echo $this->getAltura()." altura";
         echo "<br>Pesando: ".$this->getPeso();
@@ -86,7 +86,7 @@ class Lutador {
         echo "<br>Empates: ".$this->getEmpates();
     }
     public function status() {
-        echo $this->getNome()."<br>";
+        echo "<br>".$this->getNome()."<br>";
         echo "Peso: ". $this->getCategoria();
         echo "<br>Ganhou: ".$this->getVitorias();
         echo "<br>Perdeu: ".$this->getDerrotas();

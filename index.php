@@ -19,6 +19,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
             $uec = new Luta();
             $uec->marcarLuta($l[0], $l[1]);
             $uec->lutar();
+            
+            $l[0]->status();
+            $l[1]->status();
         ?>
     </body>
 </html>

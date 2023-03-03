@@ -52,12 +52,12 @@ class Luta {
                     $this->desafiante->empatarLuta();
                     break;
                 case 1:
-                    echo "<p>Ganhador!</p>". $this->desafiado->getNome();
+                    echo "<p>Ganhador! ". $this->desafiado->getNome()."</p>";
                     $this->desafiado->ganharLuta();
                     $this->desafiante->perderLuta();
                     break;
                 case 2:
-                    echo "<p>Ganhador!</p>". $this->desafiante->getNome();
+                    echo "<p>Ganhador!". $this->desafiante->getNome()."</p>";
                     $this->desafiado->perderLuta();
                     $this->desafiante->ganharLuta();
                     break;
